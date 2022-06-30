@@ -1,0 +1,9 @@
+﻿  Binding.cpp
+  Main.cpp
+Main.obj : error LNK2005: "void __cdecl output(void)" (?output@@YAXXZ) already defined in Binding.obj
+Main.obj : error LNK2005: "void __cdecl record(void)" (?record@@YAXXZ) already defined in Binding.obj
+Main.obj : error LNK2005: "bool __cdecl SpecialKeys(int)" (?SpecialKeys@@YA_NH@Z) already defined in Binding.obj
+Main.obj : error LNK2005: "void __cdecl LOG(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?LOG@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in Binding.obj
+Binding.obj : error LNK2001: unresolved external symbol "public: static bool def::record_State" (?record_State@def@@2_NA)
+Binding.obj : error LNK2001: unresolved external symbol "public: static bool def::play_State" (?play_State@def@@2_NA)
+D:\Recordbot\record-bot\Release\record-bot.exe : fatal error LNK1120: 2 unresolved externals
